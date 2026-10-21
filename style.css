@@ -1,0 +1,195 @@
+*{
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+margin:0;
+background:#f4f4f4;
+color:#222;
+}
+
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
+
+
+
+.site-header{
+background:#222;
+color:white;
+}
+
+.header-inner{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.site-title{
+color:#c210fe;
+margin:0;
+}
+
+
+
+.main-nav ul{
+list-style:none;
+display:flex;
+gap:15px;
+padding:0;
+}
+
+.main-nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.main-nav a:hover{
+text-decoration:underline;
+}
+
+
+
+.hero{
+background:white;
+padding:20px;
+border-radius:10px;
+margin-bottom:20px;
+}
+
+/* genres */
+
+.genre-list article{
+background:white;
+padding:15px;
+margin-bottom:20px;
+border-radius:10px;
+}
+
+/* cards */
+
+.preview-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:10px;
+}
+
+/* artists */
+
+.artist-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.artist-card{
+background:white;
+padding:10px;
+border-radius:10px;
+text-align:center;
+}
+
+.artist-card img{
+width:100%;
+height:150px;
+object-fit:cover;
+border-radius:8px;
+}
+
+/* text */
+
+h2{
+color:#333;
+}
+
+h3{
+color:#444;
+}
+
+ul{
+margin-left:20px;
+}
+.btn{
+display:inline-block;
+background-color:#28a745;
+color:white;
+padding:12px 20px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+transition:0.2s;
+}
+
+.btn:hover{
+background-color:#10adc9;
+transform:scale(1.05);
+}
+
+.btn:visited{
+color:white;
+}
+
+.genre-list{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+/* gerne list */
+
+.genre-list article{
+background:rgb(81, 91, 87);
+padding:20px;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+transition:transform 0.2s;
+}
+
+.genre-list article:hover{
+transform:translateY(-5px);
+}
+
+.genre-list h3{
+color:#1d9fa1;
+}
+
+/*Gerne sorted by continent*/
+
+.continent-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+margin-top:30px;
+background:#5F0909;
+padding:20px;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+transition:transform 0.2s;
+}
+
+.continent-grid:hover{
+transform:translateY(-5px);
+}
+
+.continent{
+background:#74cf72;
+padding:20px;
+border-radius:10px;
+}
+
+.continent h3{
+color:#a63d3d;
+margin-top:0;
+}
