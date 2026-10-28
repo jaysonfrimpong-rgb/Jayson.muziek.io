@@ -122,7 +122,7 @@ margin-left:20px;
 }
 .btn{
 display:inline-block;
-background-color:#28a745;
+background-color:#4e467c;
 color:white;
 padding:12px 20px;
 border-radius:8px;
@@ -150,7 +150,7 @@ margin-top:40px;
 /* gerne list */
 
 .genre-list article{
-background:rgb(81, 91, 87);
+background:rgb(135, 112, 166);
 padding:20px;
 border-radius:12px;
 box-shadow:0 4px 12px rgba(0,0,0,0.1);
@@ -184,7 +184,7 @@ transform:translateY(-5px);
 }
 
 .continent{
-background:#74cf72;
+background:#962a2a;
 padding:20px;
 border-radius:10px;
 }
